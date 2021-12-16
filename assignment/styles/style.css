@@ -1,1 +1,13 @@
-/* give your assignment a fun background color */
+body {
+  background-color: #4b0082;
+  }/* give your assignment a fun background color */
+header {
+  background-color: #ffd700;
+  border-color: #fffafa;
+  border-style: double;
+  border-width: 13px;
+  padding: 5px;
+}
+body {
+  margin: 0;
+}
