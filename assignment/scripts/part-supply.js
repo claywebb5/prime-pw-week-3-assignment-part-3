@@ -89,15 +89,16 @@ console.log(sum);
 //    Then log how many boxes were filled, and how many parts are left over.
 console.log('9. Filling boxes with a "while" loop');
 
-let parts = 1;
-const maxParts = 572;
-const box = 7;
+let parts = 0;
+let boxes = 1;
 
-while( parts === box ){
+while( parts < 573 ){
   parts++;
-  console.log('One box');
-
+  if ( parts === 7){
+    console.log('YES!');
+  }
 }
+
 
 
 //
