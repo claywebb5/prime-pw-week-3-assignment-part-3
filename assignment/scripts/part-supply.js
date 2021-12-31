@@ -91,10 +91,12 @@ console.log(sum);
 console.log('9. Filling boxes with a "while" loop');
 
 let partsTotal = 572;
-let partsPerBox = 7;
-let partsLeft = 0;
+const partsPerBox = 7;
+let boxes = 0;
 
-while (partsLeft >= 6){
+while (partsTotal > partsPerBox){
   partsTotal -= partsPerBox;
+  boxes++;
 }
-console.log(partsTotal);
+console.log('We have filled', boxes, 'boxes');
+console.log('We have', partsTotal, 'parts left over and would need', 2, 'more parts to fill another box.');
